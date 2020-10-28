@@ -1,4 +1,4 @@
-from rectangle import Rectangle, Square
+from rectangle import Rectangle, Square, Circle
 
 rect_1 = Rectangle(3,4)
 rect_2 = Rectangle(12,5)
@@ -18,3 +18,6 @@ for figure in figures:
         print(figure.get_area_square())
     else:
         print(figure.get_area())
+
+circle_1 = Circle(2)
+print (circle_1.get_area_circle())
